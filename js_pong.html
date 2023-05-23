@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Pong Game</title>
+	<link rel="stylesheet" type="text/css" href="js_pong.css">
+	<script src="js_pong.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Pong</h1>
+	</header>
+	<main>
+		<section>
+			<div id="Scoreboard">
+				<span class="score" id="p1">
+					<p>Player 1</p>
+					<p id="scorep1">0</p>
+				</span>
+				<span class="score" id="p2">
+					<p>Player 2</p>
+					<p id="scorep2">0</p>
+				</span>
+			</div>
+
+			<input type="button" id="btn_start" value="Start Game">
+			<canvas width="800" height="450" id="canvas">
+				- Uw browser ondersteund "Canvas" niet -
+			</canvas>
+
+			<div>
+				<input type="button" id="btn_sound" value="Sound">
+				<input type="button" id="btn_restart" value="Restart">
+			</div>
+
+			<div>
+				<h2>Controls: </h2>
+				<p>Player 1 uses "W" and "S" keys to move the Paddle.</p>
+				<p>Player 2 uses "Up" and "Down" arrows to move the Paddle.</p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>JavaScript Pong<br>I Munster</p>
+	</footer>
+</body>
+
+</html>
